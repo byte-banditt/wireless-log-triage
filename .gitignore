@@ -1,0 +1,13 @@
+.venv/
+.agents/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+data/chroma/
+data/models.joblib
+data/detector_state_*.joblib
+data/mlflow.db
+mlruns/
+*.db
+*.sqlite3

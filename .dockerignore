@@ -1,0 +1,14 @@
+.git
+.venv
+.agents
+*.egg-info
+data/chroma
+data/mlruns
+data/mlflow.db
+data/train.jsonl
+data/eval.jsonl
+data/evaluation.json
+data/detector_state*.joblib
+mlruns
+.pytest_cache
+__pycache__

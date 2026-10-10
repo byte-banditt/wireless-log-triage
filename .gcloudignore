@@ -1,0 +1,12 @@
+.git/
+.venv/
+.agents/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+data/chroma/
+data/mlflow.db
+data/train.jsonl
+data/eval.jsonl
+data/evaluation.json
+data/detector_state*.joblib
