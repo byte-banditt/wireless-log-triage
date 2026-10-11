@@ -1,0 +1,29 @@
+{
+  "request": {
+    "logs": [
+      {
+        "timestamp": "2025-01-02T00:00:00+00:00",
+        "test_id": "FUTURE-1",
+        "protocol": "wifi",
+        "component": "MAC",
+        "retry_count": 1,
+        "rssi": -55,
+        "latency_ms": 24,
+        "throughput_mbps": 180
+      }
+    ]
+  },
+  "status_code": 200,
+  "response": {
+    "predictions": [
+      {
+        "test_id": "FUTURE-1",
+        "failure_risk": 0.716525767887279,
+        "baseline_failure_risk": 0.7653061224489796,
+        "predicted_failure": true,
+        "threshold": 0.5,
+        "run_id": "89c3d0844766415f93284e27f66579bc"
+      }
+    ]
+  }
+}

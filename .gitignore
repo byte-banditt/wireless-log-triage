@@ -6,6 +6,7 @@ __pycache__/
 *.egg-info/
 data/chroma/
 data/models.joblib
+data/failure_model.joblib
 data/detector_state_*.joblib
 data/mlflow.db
 mlruns/

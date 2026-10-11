@@ -1,0 +1,22 @@
+{
+  "archived_run_id": "73ddb8e3c26b4606b855c9323d6b0ef2",
+  "original_run_id": "7c2af9e132764853a13ecf3477e2543a",
+  "provenance": "Imported committed report; NOT re-executed or revalidated",
+  "metrics": {
+    "hdbscan_precision_macro": 0.9,
+    "hdbscan_recall_macro": 0.7884259259259259,
+    "hdbscan_f1_macro": 0.8395698858468625,
+    "hdbscan_ari": 0.2841960080833475,
+    "hdbscan_noise_fraction": 0.12444444444444444,
+    "hdbscan_silhouette": 0.8035948872566223,
+    "kmeans_precision_macro": 0.6015612802498048,
+    "kmeans_recall_macro": 0.6574074074074073,
+    "kmeans_f1_macro": 0.5797979797979798,
+    "kmeans_ari": 0.5686269381492283,
+    "kmeans_noise_fraction": 0.0,
+    "kmeans_silhouette": 0.32467880845069885,
+    "anomaly_precision": 0.9090909090909091,
+    "anomaly_recall": 0.7894736842105263,
+    "anomaly_f1": 0.8450704225352113
+  }
+}

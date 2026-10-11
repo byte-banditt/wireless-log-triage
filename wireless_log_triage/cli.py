@@ -7,8 +7,13 @@ from .dataset import generate, read_jsonl, write_jsonl
 
 def main():
     parser = argparse.ArgumentParser(description="Wireless log triage demo")
-    parser.add_argument("command", choices=("prepare", "demo"))
+    parser.add_argument("command", choices=("prepare", "demo", "predict-train"))
     arguments = parser.parse_args()
+    if arguments.command == "predict-train":
+        from .prediction import train_and_evaluate_prediction
+
+        print(json.dumps(train_and_evaluate_prediction(DATA_DIR), indent=2))
+        return
     if arguments.command == "prepare":
         from .modeling import train_and_evaluate
 

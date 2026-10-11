@@ -1,0 +1,25 @@
+{
+  "prediction_run_id": "89c3d0844766415f93284e27f66579bc",
+  "prediction_status": "FINISHED",
+  "logged_metrics": {
+    "failure_classifier_pr_auc_average_precision": 0.9076171103262939,
+    "failure_classifier_precision": 0.791970802919708,
+    "failure_classifier_recall": 0.9644444444444444,
+    "failure_classifier_brier_score": 0.15289729719811837,
+    "failure_classifier_ece_10_bins": 0.0520332635995658,
+    "failure_historical_rate_baseline_pr_auc_average_precision": 0.8854525018702433,
+    "failure_historical_rate_baseline_precision": 0.7833935018050542,
+    "failure_historical_rate_baseline_recall": 0.9644444444444444,
+    "failure_historical_rate_baseline_brier_score": 0.1538093828322181,
+    "failure_historical_rate_baseline_ece_10_bins": 0.014834531172789572
+  },
+  "archived_run_id": "73ddb8e3c26b4606b855c9323d6b0ef2",
+  "archive_provenance": "Imported committed evaluation.json; NOT re-executed or revalidated",
+  "both_in_same_experiment": true,
+  "artifacts": [
+    "failure_prediction/failure_evaluation.json",
+    "failure_prediction/failure_model.joblib",
+    "failure_prediction/failure_predictions.jsonl"
+  ],
+  "experiment_id": "1"
+}
